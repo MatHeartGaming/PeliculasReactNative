@@ -27,3 +27,11 @@ export interface Result {
     vote_average:      number;
     vote_count:        number;
 }
+
+
+export interface MoviesReponse {
+    page:          number;
+    results:       Result[];
+    total_pages:   number;
+    total_results: number;
+}
